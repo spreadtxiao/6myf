@@ -1,0 +1,33 @@
+
+.mapa{
+    text-align: center;
+    padding: 1em 0;
+    
+    border-radius: 60px;
+}
+.titulo-principal{
+    color: white;
+    font-size: 35px;
+    padding: 1em 0;
+}
+
+.mapa-contenido{
+    border-radius: 50px;
+    width: auto;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+.gmap{
+    border-radius: 20px;
+}
+@media (min-width: 768px){
+    .mapa-contenido{
+        width: 600px;
+    }
+}
+@media (min-width: 576px){
+    .mapa-contenido{
+        width: 100%;
+        padding: 60px 20px;
+    }
+}

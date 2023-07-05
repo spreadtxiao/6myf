@@ -1,0 +1,37 @@
+.boton{
+    display: none;
+}
+@media (max-width: 768px){
+/*body{
+    
+}*/
+.botonwhas{
+    background-color: transparent;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 0.1rem;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+.botonwhas:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.boton{
+    display: block;
+    width: 80px;
+    transition: ease 1s;
+}
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(63, 209, 185, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+}
+}
